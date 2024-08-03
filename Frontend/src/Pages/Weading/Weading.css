@@ -1,0 +1,234 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    /* max-width: 600px;  */
+    margin: auto; /* center the image container */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 90%;
+    height: 90vh;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+
+
+  /* Container for the entire content */
+.weading {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General text styles */
+.weading p {
+  margin-bottom: 20px;
+  color: #555555;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Heading styles */
+.weading h3 {
+  color: #333333;
+  border-bottom: 2px solid #ff6666;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Specific styles for class .style */
+.weading .style {
+  font-style: italic;
+  font-size: 24px;
+  color: #ff6666;
+}
+
+/* Specific styles for class .heading */
+.weading .heading {
+  font-size: 22px;
+  color: #ff6666;
+}
+
+/* Styles for the box class */
+.weading .box {
+  padding: 20px;
+  background-color: #fffbf2;
+  border: 1px solid #ffd699;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.weading .box p {
+  margin: 10px 0;
+  color: #333333;
+  position: relative;
+  padding-left: 25px; /* Create space for the check mark */
+}
+
+.weading .box p::before {
+ 
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff6666;
+}
+
+/* Nested bullet points */
+.weading .box p br::before {
+  content: '🔷';
+  margin-right: 5px;
+}
+
+/* Additional heading styles */
+.weading h3 + h3 {
+  margin-top: 40px;
+}
+
+/* Food section styling */
+.weading > div > div {
+  padding: 20px;
+  background-color: #fff5e6;
+  border: 1px solid #ffcc99;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.weading > div > div h3 {
+  color: #ff8533;
+  border-bottom: 2px solid #ff8533;
+}
+
+
+
+
+   /* for the from */
+
+
+   .form {
+    margin-top: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form h2 {
+   
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form .form-group input,
+  .form .form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form .form-group input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+  }
+  
+  .form .form-group label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .form .form-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 600px) {
+    .form {
+      padding: 15px;
+    }
+    
+    .form .form-group input,
+    .form .form-group textarea {
+      width: calc(100% - 15px);
+    }
+  }
+  
+
+  .price {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .price button {
+    background-color: #ff6666; /* Primary color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .price button:hover {
+    background-color: #ff3333; /* Darker shade on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+  }
+  
+  .price button:active {
+    background-color: #cc0000; /* Even darker shade on active */
+    transform: translateY(-2px); /* Less lift on active */
+  }
+  
