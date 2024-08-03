@@ -3,30 +3,30 @@ import React from 'react';
 const cardData = [
   {
     id: 1,
-    title: "Card title 1",
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    title: "Card 1",
+    text: "May your journey together be filled with endless love, joy, and the magic of a beautiful forever.",
     imgSrc: "https://images.unsplash.com/photo-1576694662383-508e793456c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFdlZWRpbmd8ZW58MHx8MHx8fDA%3D",
     link: "#"
   },
   {
     id: 2,
-    title: "Card title 2",
-    text: "Some more example text to build on the card title and make up the bulk of the card's content.",
-    imgSrc: "https://images.unsplash.com/photo-1576694662383-508e793456c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFdlZWRpbmd8ZW58MHx8MHx8fDA%3D",
+    title: "Card 2",
+    text:"May your birthday be filled with laughter, love, and all the beautiful moments that make life a true celebration.",
+    imgSrc: "https://images.pexels.com/photos/6666746/pexels-photo-6666746.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "#"
   },
   {
     id: 2,
-    title: "Card title 2",
-    text: "Some more example text to build on the card title and make up the bulk of the card's content.",
-    imgSrc: "https://images.unsplash.com/photo-1576694662383-508e793456c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFdlZWRpbmd8ZW58MHx8MHx8fDA%3D",
+    title: "Card 3",
+    text: "Every party is a chance to dance to the rhythm of life, celebrate the joy of togetherness, and create unforgettable memories",
+    imgSrc: "https://images.pexels.com/photos/255483/pexels-photo-255483.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "#"
   },
   {
     id: 2,
-    title: "Card title 2",
-    text: "Some more example text to build on the card title and make up the bulk of the card's content.",
-    imgSrc: "https://images.unsplash.com/photo-1576694662383-508e793456c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFdlZWRpbmd8ZW58MHx8MHx8fDA%3D",
+    title: "Card 4",
+    text: "May the love you share grow stronger as you celebrate another year together, creating countless cherished memories alongtheway" ,
+    imgSrc: "https://images.pexels.com/photos/1809344/pexels-photo-1809344.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "#"
   },
   // Add more card objects as needed
@@ -38,7 +38,7 @@ const Card = ({ title, text, imgSrc, link }) => (
     <div className="card-body">
       <h5 className="card-title">{title}</h5>
       <p className="card-text">{text}</p>
-      <a href={link} className="btn btn-primary">Go somewhere</a>
+      
     </div>
   </div>
 );

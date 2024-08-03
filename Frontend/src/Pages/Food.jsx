@@ -18,7 +18,8 @@ const menuData = [
       category: "Main Course",
       items: [
         { name: "Rice-Course", description: "Plain-Rice,Vegetable-Pulao, Peas-Pulao, Dam-Vegetable-Biriyani, Fried-Rice,", price: "$15" },
-        { name: "Pasta Carbonara", description: "Pasta with creamy sauce and pancetta", price: "$12" }
+        { name: "Gravy-Course(Veg)", description: "Paneer Makhanwala,Kadhai Paneer, Paneer Lababdar,Palak Paneer,Paneer Butter Masala, Paneer Tikka Tawa Masala", price: "$15" },
+        { name: "Gravy-Course(Non-Veg)", description: "Murg Kasturi, Kadhai Chicken, Murg Makhanwala, Murg Reshmi Butter Masala, Akbari Chicken, Murg Bharta, Bhuna Mutton, Balti Mutton, Kashmiri Rogan Josh", price: "$12" }
       ]
     },
     {
@@ -33,8 +34,8 @@ const menuData = [
       id: 4,
       category: "Beverages",
       items: [
-        { name: "Fresh Lemonade", description: "Homemade lemonade with fresh lemons", price: "$3" },
-        { name: "Iced Tea", description: "Cold brewed iced tea with a hint of lemon", price: "$2.5" }
+        { name: "Fresh Lemonade", description: "Soft-Drinks, Hard-Drinks, Mojito, Blue Lagon", price: "$3" },
+        { name: "Iced Tea", description: "Chocklet-Tea, Kesar-Tea, Malai-Tea", price: "$2.5" }
       ]
     }
   ];

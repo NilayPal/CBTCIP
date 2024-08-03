@@ -41,7 +41,7 @@ const Contact = () => {
       <Navbar/>
       <div className='form-container'>
       <form onSubmit={handleSubmit}>
-     
+      <h1 className="title">Contact Us</h1>
       <div className="mb-3">
            <input
              type="email"

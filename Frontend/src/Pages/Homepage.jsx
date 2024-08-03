@@ -3,7 +3,7 @@ import Navbar from '../Components/Layout/Navbar';
 import Footer from '../Components/Layout/Footer';
 import "../Css/Homepage.css";
 import Middlepage from './Middlepage';
-import Food from './Food';
+import Video from './Video';
 
 const Homepage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -69,6 +69,30 @@ const Homepage = () => {
         </div>
       </div>
       <Middlepage />
+          
+          
+
+
+  <Video/>
+
+
+      <div className="customer">
+      <div className="praise">
+        <h3>Mr.Shrama</h3>
+        <p>"I hired elleaevents to host the grand opening of our new salon in Beverly Hills. From the moment I met Elle and her team, I was sure my event was going to be a successful one. In fact, it was beyond what I could have expected or imagined." </p>
+      </div>
+      <div className="praise">
+        <h3>Mr.Pradip Pal</h3>
+        <p>"When we hired Elle and her team, we got a creative and dynamic person who turned our wedding from a simple backyard dinner to a truly magical experience--all within our budget." </p>
+      </div>
+      <div className="praise">
+        <h3>Mr.S Sing</h3>
+        <p> "I highly recommend elleaevents not only for their ability to totally produce your vision, but also for their friendliness and professionalism. It is so fun working with them!"</p>
+      </div>
+    </div>
+
+
+
       <Footer />
     </>
   );
